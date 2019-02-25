@@ -1,0 +1,9 @@
+{
+  "name": "travel-site",
+  "version": "1.0.0",
+  "description": "The working project for Git a Web Developer Job course on udemy",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "normalize.css": "^8.0.1"
+  }
+}
