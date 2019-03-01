@@ -6,8 +6,8 @@
   }
   {{/first}}
   .icon--{{base}} {
-    height: {{width.outer}}px;
-    width: {{height.outer}}px;
     background-position: {{position.relative.xy}};
+    height: {{height.outer}}px;
+    width: {{width.outer}}px;
   }
 {{/shapes}}
