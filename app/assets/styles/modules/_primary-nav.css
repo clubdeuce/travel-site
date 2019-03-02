@@ -51,6 +51,10 @@
       background-color: transparent;
       font-size: 1rem;
       padding: .75rem 0;
+
+      &.active {
+        color: $mainOrange;
+      }
     }
   }
 }

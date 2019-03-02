@@ -1,5 +1,6 @@
-import MobileMenu from './modules/mobile-menu';
-import RevealOnScroll from './modules/reveal-on-scroll';
+import MobileMenu from './modules/MobileMenu';
+import RevealOnScroll from './modules/RevealOnScroll';
+import StickyHeader from './modules/StickyHeader';
 import $ from 'jquery';
 
 let mobileMenu = new MobileMenu();
@@ -9,3 +10,4 @@ new RevealOnScroll($('.feature-item'), {
 new RevealOnScroll($('.testimonial'), {
   offset: "60%"
 });
+new StickyHeader();
