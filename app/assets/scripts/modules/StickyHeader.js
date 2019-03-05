@@ -9,6 +9,14 @@ export default class StickyHeader {
     this.createHeaderWaypoint($('.site-header'), $('.large-hero__title'));
     this.createSectionWaypoints($('.page-section'), headerLinks);
     this.enableSmoothScroll(headerLinks)
+    this.lazyImages = $('.lazyload');
+    this.refreshWaypoints();
+  }
+
+  refreshWaypoints() {
+    this.lazyImages.on('load', function() {
+      Waypoint.refreshAll();
+    });
   }
 
   enableSmoothScroll(links = []) {
